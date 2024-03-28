@@ -18,7 +18,8 @@ import streamlit as st
 def app():
     st.markdown('## Dear foraging browser user, \n'
                 '#### For better stability and accessibility, this app has been migrated to Amazon ECS (thank you Yoseh and Jon 🙌).\n'
-                '##         👉  [Click me](https://aindephysforagingapplb-23793000.us-west-2.elb.amazonaws.com/) ')
+                '#### 👉  [foraging-behavior-browser.allenneuraldynamics-test.org](http://foraging-behavior-browser.allenneuraldynamics-test.org/) '
+                )
     st.divider()
     st.markdown('If you see this, click "Advanced"')
     st.image('https://github.com/hanhou/foraging-behavior-browser/assets/24734299/4431c438-438c-4591-a62e-15526615d5b0')
