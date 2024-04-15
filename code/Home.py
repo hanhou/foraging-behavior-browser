@@ -17,14 +17,12 @@ import streamlit as st
 
 def app():
     st.markdown('## Dear foraging browser user, \n'
-                '#### For better stability and accessibility, this app has been migrated to Amazon ECS (thank you Yoseh and Jon 🙌).\n'
+                '#### For better stability and accessibility, this app has been migrated to Amazon ECS (thank you Yosef and Jon 🙌).\n'
                 '#### 👉  [foraging-behavior-browser.allenneuraldynamics-test.org](http://foraging-behavior-browser.allenneuraldynamics-test.org/) '
                 )
+    st.markdown('#### If you see a window asking you to "Select a certificate", please click "Cancel".')
     st.divider()
-    st.markdown('If you see this, click "Advanced"')
-    st.image('https://github.com/hanhou/foraging-behavior-browser/assets/24734299/4431c438-438c-4591-a62e-15526615d5b0')
-    st.markdown('and then click "Continue to..."')
-    st.image('https://github.com/hanhou/foraging-behavior-browser/assets/24734299/0799dc32-8bc5-4c53-a85a-58c50f57f33e')
+    st.markdown('Ask Han or submit an issue [here](https://github.com/AllenNeuralDynamics/foraging-behavior-browser/issues) if you have any questions.')
 
 app()
 
