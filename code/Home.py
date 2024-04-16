@@ -15,6 +15,12 @@ Example queries:
 #%%
 import streamlit as st
 
+st.set_page_config(
+    layout="centered", 
+    page_icon=':mouse2:', 
+    page_title="Foraging Behavior Browser (obsoleted)"
+)
+
 def app():
     st.markdown('## Dear foraging browser user, \n'
                 '#### For better stability and accessibility, this app has been migrated to Amazon ECS (thank you Yosef and Jon 🙌).\n'
